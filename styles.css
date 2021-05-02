@@ -1,0 +1,53 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: "Agency FB";
+    font-weight: 400;
+    color: #ffffff;
+}
+body{
+    margin: 0px;
+    background-color:#fc5e02;
+    
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+color:white;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family:"Goudy Old Style";
+    
+}
+.grid img{
+    border: 2px solid #fc5e02;
+    border-width: 10px; ;
+    border-radius: 50px;
+}
+.origami {
+    
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: "Goudy Old Style";
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
+
+.bodyimg{
+    text-align: center;
+}
